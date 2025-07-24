@@ -16,7 +16,7 @@ public class StudentManagement99Application {
 	//curl.exe "http://localhost:8080/hello"
 	@GetMapping("/hello")
 	public String hello(){
-		return "Hello,World!!";
+		return "こんにちは";
 	}
 
 }
